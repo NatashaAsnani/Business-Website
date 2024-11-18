@@ -286,25 +286,25 @@
         width: 100px;
     }
     .top-right {
-        top: 80px;
-        right: 200px;
-        font-size: 7pt !important;
+        top: 70px;
+        right: 190px;
+        font-size: 8pt !important;
     }
     
     .right {
-        top: 100px;
+        top: 95px;
         right: 230px;
         font-size: 12pt;
     }
     
     /* Bottom right text */
     .bottom-right {
-        top: 155px;
-        right: 130px;
-        font-size: x-small;
+        top: 150px;
+        right: 152px;
+        font-size: xx-small;
     }
     .bottom {
-        top: 190px;
+        top: 180px;
         right: 350px;
     }
     .phone{
@@ -313,7 +313,7 @@
     }
     
     .icons{
-        top: 190px;
+        top: 180px;
         right: 240px;
     }
     .icons h5, .icons p{
