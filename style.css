@@ -313,11 +313,14 @@
     }
     
     .icons{
-        top: 185px;
-        right: 230px;
+        top: 182px;
+        right: 200px;
     }
-    .icons h5, .icons span{
+    .icons h5{
         font-size: xx-small !important;
+    }
+    .icons span{
+        font-size: small !important;
     }
 }
 
