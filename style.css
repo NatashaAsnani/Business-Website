@@ -1,30 +1,39 @@
 .container-fluid{
     overflow-x: hidden;
 }
+.nav-link {
+    border-radius: 25px;
+    padding-left: 28px !important;
+    padding-right: 28px !important;
+    padding: 8px;
+}
+
 .nav-link.active {
-    background-color: red;
+    background-color: rgb(212, 10, 10);
     color: white;
     border-radius: 25px;
     padding-left: 28px !important;
     padding-right: 28px !important;
     padding: 8px;
 }
+
 .nav-link:hover{
-    background-color: red;
+    background-color: rgb(212, 10, 10);
     color: white;
     border-radius: 25px;
     padding-left: 28px !important;
     padding-right: 28px !important;
     padding: 8px;
 }
+
 .bg{
     background-color: black;
 }
-/* Top right text */
+
 .top-right {
     position: absolute;
     top: 120px;
-    right: 300px;
+    right: 280px;
     font-weight: bold;
     letter-spacing: 3px;
     font-size: larger !important;
@@ -39,7 +48,6 @@
     font-size: 50pt;
 }
 
-/* Bottom right text */
 .bottom-right {
     position: absolute;
     bottom: 180px;
@@ -53,7 +61,7 @@
 .phone{
     font-size: 30px;
     color:white;
-    background-color: red;
+    background-color: rgb(212, 10, 10);
     border-radius: 50%;
     padding: 15px;
 }
@@ -68,7 +76,7 @@
 }
 .click{
     text-decoration: none;
-    color: red;
+    color: rgb(212, 10, 10);
     letter-spacing: 2px;
 }
 .click:hover{
@@ -76,7 +84,7 @@
     letter-spacing: 4px;
 }
 .clients{
-    background-color: red;
+    background-color: rgb(212, 10, 10);
 }
 .arrow{
     transition: transform 0.4s ease, color 0.3s ease; /* Smooth transformation */
@@ -85,7 +93,7 @@
 
 .click:hover .arrow {
     transform: scaleX(1.6); /* Increase length */
-  }
+}
 
 .YOB{
     font-size: 60pt;
@@ -105,7 +113,6 @@
     background-size: cover;
 }
 
-/* Centered text */
 .centered {
     position: absolute;
     top: 80px;
@@ -128,7 +135,7 @@
     padding-right: 50px;
 }
 .cell i{
-    color: red;
+    color: rgb(212, 10, 10);
     font-size: 30pt;
     justify-content: center;
     display: flex;
@@ -166,7 +173,6 @@
 }
 .request{
     padding-top: 50px;
-    /* background-color: #e0e0e0; */
 }
 .angle{
     color: rgb(249, 87, 87);
@@ -204,16 +210,16 @@
     left: 68px;
 }
 .send{
-    border: 2px solid red;
+    border: 2px solid rgb(212, 10, 10);
     padding: 10px;
     padding-left: 40px;
     padding-right: 40px;
     background-color: white;
-    color: red;
+    color: rgb(212, 10, 10);
     font-weight: bold;
 }
 .send:hover{
-    background-color: red;
+    background-color: rgb(212, 10, 10);
     color: white;
     border: 4px solid rgba(255, 255, 255, 0.509);
 }
@@ -226,10 +232,10 @@
     color: white;
 }
 .footer a i:hover{
-    color: red !important;
+    color: rgb(212, 10, 10) !important;
 }
 .links a:hover, .company a:hover{
-    color: red;
+    color: rgb(212, 10, 10);
 }
 .p1{
     padding-top: 30px;
@@ -245,10 +251,11 @@
     left: 1050px;
 }
 
+
 @media (min-width: 576px) and (max-width: 767.98px){
     .top-right {
         top: 80px;
-        right: 330px;
+        right: 300px;
         font-size: x-small !important;
     }
     
@@ -258,7 +265,6 @@
         font-size: 18pt;
     }
     
-    /* Bottom right text */
     .bottom-right {
         bottom: 190px;
         right: 185px;
@@ -281,13 +287,14 @@
         font-size: smaller !important;
     }
 }
+
 @media (min-width: 300px) and (max-width: 600px){
     .logo{
         width: 100px;
     }
     .top-right {
         top: 70px;
-        right: 190px;
+        right: 170px;
         font-size: 8pt !important;
     }
     
@@ -297,7 +304,6 @@
         font-size: 12pt;
     }
     
-    /* Bottom right text */
     .bottom-right {
         top: 150px;
         right: 152px;
@@ -315,6 +321,48 @@
     .icons{
         top: 182px;
         right: 200px;
+    }
+    .icons h5{
+        font-size: xx-small !important;
+    }
+    .icons span{
+        font-size: small !important;
+    }
+}
+
+@media (max-width: 300px){
+    .logo{
+        width: 80px;
+    }
+    .top-right {
+        top: 70px;
+        right: 150px;
+        font-size: 8pt !important;
+    }
+    
+    .right {
+        top: 95px;
+        right: 200px;
+        font-size: 12pt;
+    }
+    
+    .bottom-right {
+        top: 150px;
+        right: 130px;
+        font-size: xx-small;
+    }
+    .bottom {
+        top: 180px;
+        right: 300px;
+    }
+    .phone{
+        font-size: 10px;
+        padding: 5px;
+    }
+    
+    .icons{
+        top: 182px;
+        right: 150px;
     }
     .icons h5{
         font-size: xx-small !important;
