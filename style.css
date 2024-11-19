@@ -6,6 +6,7 @@
     padding-left: 28px !important;
     padding-right: 28px !important;
     padding: 8px;
+    background-color: transparent;
 }
 
 .nav-link.active {
@@ -28,6 +29,12 @@
 
 .bg{
     background-color: black;
+    /* padding-top: 50px !important; */
+}
+
+.bg-image{
+    height: 600px;
+    padding-top: 60px !important;
 }
 
 .top-right {
@@ -290,7 +297,10 @@
 
 @media (min-width: 300px) and (max-width: 600px){
     .logo{
-        width: 100px;
+        width: 120px;
+    }
+    .bg-image{
+        height: 250px;
     }
     .top-right {
         top: 70px;
